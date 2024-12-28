@@ -9,9 +9,8 @@ function replaceWords() {
   let node;
 
   while ((node = walker.nextNode())) {
-    node.nodeValue = node.nodeValue.replace(/Trump/gi, 'idiot');
+    node.nodeValue = node.nodeValue.replace(/Trump/gi, 'The F###### Idiot');
   }
 }
 
-// Run the function when the content script is loaded
 replaceWords();
