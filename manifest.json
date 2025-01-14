@@ -3,9 +3,12 @@
   "name": "Word Replacer",
   "version": "1.0",
   "description": "Replaces the word 'Trump' with 'idiot' on webpages.",
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "storage"],
   "background": {
     "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "settings.html"
   },
   "content_scripts": [
     {

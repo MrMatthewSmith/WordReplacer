@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Replacement Settings</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      input,
+      button {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Word Replacement Settings</h1>
+    <div>
+      <input type="text" id="new-word" placeholder="Word to replace" />
+      <input type="text" id="replacement" placeholder="Replacement word" />
+      <button id="add-word">Add</button>
+      <button id="clear-list">Clear List</button>
+    </div>
+    <ul id="word-list"></ul>
+    <script src="settings.js"></script>
+  </body>
+</html>
